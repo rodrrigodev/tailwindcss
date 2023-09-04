@@ -1,28 +1,28 @@
+import { Logo } from '@/components/Sidebar/Logo'
 import {
+  Search,
   BarChart,
   CheckSquare,
-  Cog,
   Flag,
-  LifeBuoy,
-  Search,
+  Home,
   SquareStack,
-  User,
+  Users,
+  LifeBuoy,
+  Cog,
 } from 'lucide-react'
-import { Logo } from './Logo'
 import { NavItem } from './NavItem'
-import Home from '@/app/page'
 import { UsedSpaceWidget } from './UsedSpaceWidget'
 import { Profile } from './Profile'
 import * as Input from './Input'
 
-export default function Sidebar() {
+export function Sidebar() {
   return (
     <aside className="flex flex-col gap-6 border-r border-zinc-200 px-5 py-8">
       <Logo />
 
       <Input.Root>
         <Input.Prefix>
-          <Search className="h-5 w-5 text-zinc-500" />
+          <Search className="h-5 w-5 to-zinc-500" />
         </Input.Prefix>
         <Input.Control placeholder="Search" />
       </Input.Root>
@@ -33,7 +33,7 @@ export default function Sidebar() {
         <NavItem title="Projects" icon={SquareStack} />
         <NavItem title="Tasks" icon={CheckSquare} />
         <NavItem title="Reporting" icon={Flag} />
-        <NavItem title="Users" icon={User} />
+        <NavItem title="Users" icon={Users} />
       </nav>
 
       <div className="mt-auto flex flex-col gap-6">
