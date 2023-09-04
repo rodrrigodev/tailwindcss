@@ -27,27 +27,32 @@ export function SettingsTabs() {
         />
         <TabItem value="tab4" title="Team" isSelected={currentTab === 'tab4'} />
         <TabItem value="tab5" title="Plan" isSelected={currentTab === 'tab5'} />
+
         <TabItem
           value="tab6"
           title="Billing"
           isSelected={currentTab === 'tab6'}
         />
         <TabItem
-          value="tab6"
+          value="tab7"
           title="Email"
           isSelected={currentTab === 'tab7'}
         />
         <TabItem
-          value="tab6"
+          value="tab8"
           title="Notifications"
           isSelected={currentTab === 'tab8'}
         />
         <TabItem
-          value="tab6"
+          value="tab9"
           title="Integrations"
           isSelected={currentTab === 'tab9'}
         />
-        <TabItem value="tab6" title="API" isSelected={currentTab === 'tab10'} />
+        <TabItem
+          value="tab10"
+          title="API"
+          isSelected={currentTab === 'tab10'}
+        />
       </Tabs.List>
     </Tabs.Root>
   )
