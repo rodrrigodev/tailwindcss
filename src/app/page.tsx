@@ -1,5 +1,5 @@
-import * as Input from '@/components/Form/Input'
-import { SettingsTabs } from '@/components/Sidebar/SettingsTabs/index.tsx'
+import * as Input from '@/components/Input'
+import { SettingsTabs } from '@/components/SettingsTabs/index.tsx'
 import { Bold, Italic, Link, List, ListOrdered, Mail } from 'lucide-react'
 import * as FileInput from '@/components/Form/FileInput'
 import { Select } from '@/components/Form/Select'
